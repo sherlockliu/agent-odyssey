@@ -1,0 +1,461 @@
+[
+  {
+    "id": "nyc",
+    "name": "New York City",
+    "country": "USA",
+    "airport_codes": [
+      "JFK",
+      "LGA",
+      "EWR"
+    ],
+    "best_for": [
+      "museums",
+      "food",
+      "theater",
+      "architecture",
+      "shopping",
+      "nightlife"
+    ],
+    "budget_level": "high",
+    "best_months": [
+      "April",
+      "May",
+      "September",
+      "October",
+      "November"
+    ],
+    "estimated_daily_cost_usd": 250,
+    "description": "The city that never sleeps. World-class museums, Broadway shows, iconic skyline.",
+    "highlights": [
+      "The Met",
+      "MoMA",
+      "Central Park",
+      "Broadway",
+      "High Line",
+      "Brooklyn Bridge"
+    ]
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "country": "Spain",
+    "airport_codes": [
+      "BCN"
+    ],
+    "best_for": [
+      "architecture",
+      "food",
+      "beaches",
+      "art",
+      "nightlife",
+      "culture"
+    ],
+    "budget_level": "medium",
+    "best_months": [
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "estimated_daily_cost_usd": 120,
+    "description": "Gaudí's masterpieces, vibrant food scene, stunning beaches. One of Europe's most beautiful cities.",
+    "highlights": [
+      "Sagrada Família",
+      "Park Güell",
+      "La Boqueria",
+      "Gothic Quarter",
+      "Barceloneta Beach"
+    ]
+  },
+  {
+    "id": "tokyo",
+    "name": "Tokyo",
+    "country": "Japan",
+    "airport_codes": [
+      "NRT",
+      "HND"
+    ],
+    "best_for": [
+      "food",
+      "technology",
+      "culture",
+      "shopping",
+      "anime",
+      "nature nearby"
+    ],
+    "budget_level": "medium",
+    "best_months": [
+      "March",
+      "April",
+      "October",
+      "November"
+    ],
+    "estimated_daily_cost_usd": 150,
+    "description": "Ultra-modern meets ancient tradition. Michelin stars per capita, cherry blossoms, unmatched transit.",
+    "highlights": [
+      "Shibuya Crossing",
+      "Tsukiji Market",
+      "Senso-ji Temple",
+      "Akihabara",
+      "Mount Fuji day trip"
+    ]
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "country": "Italy",
+    "airport_codes": [
+      "FCO",
+      "CIA"
+    ],
+    "best_for": [
+      "history",
+      "food",
+      "art",
+      "architecture",
+      "culture"
+    ],
+    "budget_level": "medium",
+    "best_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "estimated_daily_cost_usd": 130,
+    "description": "The Eternal City. 3,000 years of history within walking distance. Incredible food.",
+    "highlights": [
+      "Colosseum",
+      "Vatican Museums",
+      "Pantheon",
+      "Trastevere",
+      "Borghese Gallery"
+    ]
+  },
+  {
+    "id": "chicago",
+    "name": "Chicago",
+    "country": "USA",
+    "airport_codes": [
+      "ORD",
+      "MDW"
+    ],
+    "best_for": [
+      "architecture",
+      "food",
+      "music",
+      "museums",
+      "sports"
+    ],
+    "budget_level": "medium",
+    "best_months": [
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "estimated_daily_cost_usd": 180,
+    "description": "Second city with first-class everything. Deep dish, architecture tours, jazz and blues.",
+    "highlights": [
+      "Art Institute",
+      "Millennium Park",
+      "The 606",
+      "Riverwalk",
+      "Chicago Architecture River Cruise"
+    ]
+  },
+  {
+    "id": "kyoto",
+    "name": "Kyoto",
+    "country": "Japan",
+    "airport_codes": [
+      "KIX",
+      "ITM"
+    ],
+    "best_for": [
+      "temples",
+      "culture",
+      "nature",
+      "traditional Japan",
+      "tea ceremony"
+    ],
+    "budget_level": "medium",
+    "best_months": [
+      "March",
+      "April",
+      "October",
+      "November"
+    ],
+    "estimated_daily_cost_usd": 120,
+    "description": "Japan's cultural heart. Over 1,600 Buddhist temples, geisha districts, bamboo forests.",
+    "highlights": [
+      "Fushimi Inari",
+      "Arashiyama Bamboo Grove",
+      "Gion District",
+      "Kinkaku-ji",
+      "Nishiki Market"
+    ]
+  },
+  {
+    "id": "london",
+    "name": "London",
+    "country": "UK",
+    "airport_codes": [
+      "LHR",
+      "LGW",
+      "STN"
+    ],
+    "best_for": [
+      "museums",
+      "theater",
+      "history",
+      "food",
+      "parks",
+      "shopping"
+    ],
+    "budget_level": "high",
+    "best_months": [
+      "April",
+      "May",
+      "June",
+      "September"
+    ],
+    "estimated_daily_cost_usd": 230,
+    "description": "World-class free museums, West End theater, remarkable food scene. Rain is optional.",
+    "highlights": [
+      "British Museum",
+      "Tate Modern",
+      "West End Shows",
+      "Borough Market",
+      "Hyde Park"
+    ]
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "country": "France",
+    "airport_codes": [
+      "CDG",
+      "ORY"
+    ],
+    "best_for": [
+      "art",
+      "food",
+      "architecture",
+      "romance",
+      "fashion",
+      "history"
+    ],
+    "budget_level": "high",
+    "best_months": [
+      "April",
+      "May",
+      "June",
+      "September",
+      "October"
+    ],
+    "estimated_daily_cost_usd": 200,
+    "description": "The City of Light. World-class art, haute cuisine, and timeless architecture at every corner.",
+    "highlights": [
+      "The Louvre",
+      "Eiffel Tower",
+      "Musée d'Orsay",
+      "Marais",
+      "Montmartre"
+    ]
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "country": "Netherlands",
+    "airport_codes": [
+      "AMS"
+    ],
+    "best_for": [
+      "cycling",
+      "museums",
+      "canals",
+      "nightlife",
+      "art",
+      "culture"
+    ],
+    "budget_level": "medium",
+    "best_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "estimated_daily_cost_usd": 140,
+    "description": "The Venice of the North. Charming canals, world-class museums, and the most cycling-friendly city in Europe.",
+    "highlights": [
+      "Rijksmuseum",
+      "Van Gogh Museum",
+      "Anne Frank House",
+      "Canal Ring",
+      "Jordaan"
+    ]
+  },
+  {
+    "id": "dubai",
+    "name": "Dubai",
+    "country": "UAE",
+    "airport_codes": [
+      "DXB"
+    ],
+    "best_for": [
+      "luxury",
+      "shopping",
+      "beaches",
+      "architecture",
+      "food",
+      "desert"
+    ],
+    "budget_level": "high",
+    "best_months": [
+      "November",
+      "December",
+      "January",
+      "February",
+      "March"
+    ],
+    "estimated_daily_cost_usd": 220,
+    "description": "Ultramodern metropolis in the desert. The world's tallest buildings, finest hotels, and gold souk culture.",
+    "highlights": [
+      "Burj Khalifa",
+      "Dubai Mall",
+      "Palm Jumeirah",
+      "Desert Safari",
+      "Old Dubai Souks"
+    ]
+  },
+  {
+    "id": "singapore",
+    "name": "Singapore",
+    "country": "Singapore",
+    "airport_codes": [
+      "SIN"
+    ],
+    "best_for": [
+      "food",
+      "shopping",
+      "nature",
+      "architecture",
+      "family",
+      "cleanliness"
+    ],
+    "budget_level": "high",
+    "best_months": [
+      "February",
+      "March",
+      "July",
+      "August"
+    ],
+    "estimated_daily_cost_usd": 180,
+    "description": "A perfect city-state. Incredible hawker food, lush gardens, ultra-efficient transit. Safe and spotless.",
+    "highlights": [
+      "Gardens by the Bay",
+      "Marina Bay Sands",
+      "Hawker Centres",
+      "Sentosa",
+      "Little India"
+    ]
+  },
+  {
+    "id": "bali",
+    "name": "Bali",
+    "country": "Indonesia",
+    "airport_codes": [
+      "DPS"
+    ],
+    "best_for": [
+      "beaches",
+      "temples",
+      "wellness",
+      "surfing",
+      "yoga",
+      "rice terraces"
+    ],
+    "budget_level": "low",
+    "best_months": [
+      "May",
+      "June",
+      "July",
+      "August",
+      "September"
+    ],
+    "estimated_daily_cost_usd": 60,
+    "description": "The Island of the Gods. Perfect for spiritual seekers, surfers, digital nomads, and honeymoons alike.",
+    "highlights": [
+      "Uluwatu Temple",
+      "Ubud Rice Terraces",
+      "Seminyak Beach",
+      "Mount Batur",
+      "Tanah Lot"
+    ]
+  },
+  {
+    "id": "madrid",
+    "name": "Madrid",
+    "country": "Spain",
+    "airport_codes": [
+      "MAD"
+    ],
+    "best_for": [
+      "art",
+      "food",
+      "nightlife",
+      "football",
+      "parks",
+      "culture"
+    ],
+    "budget_level": "medium",
+    "best_months": [
+      "April",
+      "May",
+      "September",
+      "October"
+    ],
+    "estimated_daily_cost_usd": 110,
+    "description": "Spain's passionate capital. World-class museums lined up on a single boulevard, tapas culture, and late nights.",
+    "highlights": [
+      "Prado Museum",
+      "Retiro Park",
+      "Royal Palace",
+      "Mercado San Miguel",
+      "La Latina tapas"
+    ]
+  },
+  {
+    "id": "sydney",
+    "name": "Sydney",
+    "country": "Australia",
+    "airport_codes": [
+      "SYD"
+    ],
+    "best_for": [
+      "beaches",
+      "outdoors",
+      "food",
+      "architecture",
+      "nature",
+      "sailing"
+    ],
+    "budget_level": "high",
+    "best_months": [
+      "October",
+      "November",
+      "March",
+      "April"
+    ],
+    "estimated_daily_cost_usd": 200,
+    "description": "The world's most beautiful harbour city. Opera House, Bondi Beach, and a thriving food scene.",
+    "highlights": [
+      "Sydney Opera House",
+      "Bondi Beach",
+      "Harbour Bridge",
+      "The Rocks",
+      "Blue Mountains"
+    ]
+  }
+]

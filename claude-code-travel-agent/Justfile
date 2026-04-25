@@ -1,0 +1,94 @@
+# Travel Agent — task runner
+# Requires: just (https://github.com/casey/just), poetry, ollama
+
+# Default: show available commands
+default:
+    @just --list
+
+# Install core dependencies only (Ollama provider)
+install:
+    PIP_INDEX_URL=https://pypi.org/simple poetry install
+
+# Install with Anthropic Claude support
+install-anthropic:
+    PIP_INDEX_URL=https://pypi.org/simple poetry install --with anthropic
+
+# Install with OpenAI / Groq / Together / Gemini support (all use openai SDK)
+install-openai:
+    PIP_INDEX_URL=https://pypi.org/simple poetry install --with openai
+
+# Install everything
+install-all:
+    PIP_INDEX_URL=https://pypi.org/simple poetry install --with anthropic --with openai
+
+# ── Run commands ──────────────────────────────────────────────────────────────
+
+# Run with default provider from config.py (set LLM_PROVIDER / LLM_MODEL env vars to override)
+run:
+    poetry run python main.py
+
+# Run explicitly on a local Ollama model
+run-ollama MODEL="qwen3:8b":
+    LLM_PROVIDER=ollama LLM_MODEL={{MODEL}} poetry run python main.py
+
+# Run with Anthropic Claude (requires ANTHROPIC_API_KEY env var)
+run-claude MODEL="claude-sonnet-4-5":
+    LLM_PROVIDER=anthropic LLM_MODEL={{MODEL}} poetry run python main.py
+
+# Run with OpenAI (requires OPENAI_API_KEY env var)
+run-openai MODEL="gpt-4o":
+    LLM_PROVIDER=openai LLM_MODEL={{MODEL}} poetry run python main.py
+
+# Run with Groq (requires GROQ_API_KEY env var)
+run-groq MODEL="llama-3.3-70b-versatile":
+    LLM_PROVIDER=groq LLM_MODEL={{MODEL}} poetry run python main.py
+
+# Run with Google Gemini (requires GEMINI_API_KEY env var)
+run-gemini MODEL="gemini-2.0-flash":
+    LLM_PROVIDER=gemini LLM_MODEL={{MODEL}} poetry run python main.py
+
+# ── Provider checks ───────────────────────────────────────────────────────────
+
+# Check that ollama is running and the default model is available
+check:
+    @echo "Checking ollama..."
+    @ollama list | grep qwen3 || (echo "ERROR: qwen3:8b not found. Run: ollama pull qwen3:8b" && exit 1)
+    @echo "qwen3:8b is available. Ready to run."
+
+# List all configured LLM providers and their status
+check-providers:
+    @echo "--- LLM Providers ---"
+    @echo "ollama     : $(ollama list 2>/dev/null | head -3 || echo 'not running')"
+    @echo "anthropic  : ANTHROPIC_API_KEY=$(if [ -n '$$ANTHROPIC_API_KEY' ]; then echo 'set'; else echo 'NOT SET'; fi)"
+    @echo "openai     : OPENAI_API_KEY=$(if [ -n '$$OPENAI_API_KEY' ]; then echo 'set'; else echo 'NOT SET'; fi)"
+    @echo "groq       : GROQ_API_KEY=$(if [ -n '$$GROQ_API_KEY' ]; then echo 'set'; else echo 'NOT SET'; fi)"
+    @echo "together   : TOGETHER_API_KEY=$(if [ -n '$$TOGETHER_API_KEY' ]; then echo 'set'; else echo 'NOT SET'; fi)"
+    @echo "gemini     : GEMINI_API_KEY=$(if [ -n '$$GEMINI_API_KEY' ]; then echo 'set'; else echo 'NOT SET'; fi)"
+
+# Pull the default Ollama model
+pull-model MODEL="qwen3:8b":
+    ollama pull {{MODEL}}
+
+# ── Data management ───────────────────────────────────────────────────────────
+
+# Wipe all saved trip contexts (keeps user profile)
+clean-trips:
+    @echo "Removing saved trips from .travel-agent/trips/"
+    rm -rf .travel-agent/trips/
+    @echo "Done."
+
+# Full reset (trips + profile)
+clean-all:
+    @echo "Removing all travel agent data from .travel-agent/"
+    rm -rf .travel-agent/
+    @echo "Done."
+
+# ── Dev tools ─────────────────────────────────────────────────────────────────
+
+# Lint the code
+lint:
+    poetry run ruff check .
+
+# Run tests
+test:
+    poetry run pytest -v

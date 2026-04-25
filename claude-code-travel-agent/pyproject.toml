@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "claude-code-travel-agent"
+version = "0.1.0"
+description = "A travel planning agent demonstrating Claude Code design patterns, supporting Ollama, Gemini, OpenAI, Anthropic, Groq, and Together AI"
+authors = ["Sherlock Liu"]
+readme = "README.md"
+packages = [
+    {include = "memory"},
+    {include = "safety"},
+    {include = "tools"},
+    {include = "llm"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+ollama = "^0.4.0"
+openai = ">=1.0"
+rich = ">=13.7.0"
+prompt-toolkit = "^3.0.0"
+textual = ">=0.50.0"
+
+[tool.poetry.extras]
+anthropicprovider = ["anthropic"]
+
+[tool.poetry.group.anthropic.dependencies]
+anthropic = ">=0.25"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+ruff = "^0.4.0"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,733 @@
+[
+  {
+    "id": "hilton-midtown-nyc",
+    "name": "Hilton Midtown",
+    "city": "New York",
+    "neighborhood": "Midtown Manhattan",
+    "stars": 4,
+    "price_per_night": 189,
+    "amenities": [
+      "gym",
+      "restaurant",
+      "room service",
+      "concierge"
+    ],
+    "rating": 8.4,
+    "chain": "Hilton",
+    "description": "Classic midtown hotel, 2 blocks from Central Park. Hilton Honors eligible."
+  },
+  {
+    "id": "hampton-inn-nyc",
+    "name": "Hampton Inn Manhattan",
+    "city": "New York",
+    "neighborhood": "Midtown",
+    "stars": 3,
+    "price_per_night": 165,
+    "amenities": [
+      "free breakfast",
+      "gym",
+      "business center"
+    ],
+    "rating": 8.1,
+    "chain": "Hilton",
+    "description": "Good value midtown option. Free breakfast included. Hilton Honors eligible."
+  },
+  {
+    "id": "hilton-times-square",
+    "name": "Hilton Times Square",
+    "city": "New York",
+    "neighborhood": "Times Square",
+    "stars": 4,
+    "price_per_night": 198,
+    "amenities": [
+      "rooftop bar",
+      "gym",
+      "restaurant"
+    ],
+    "rating": 7.9,
+    "chain": "Hilton",
+    "description": "Times Square location, great views. Can be noisy at night."
+  },
+  {
+    "id": "citizenm-nyc",
+    "name": "citizenM New York Times Square",
+    "city": "New York",
+    "neighborhood": "Times Square",
+    "stars": 4,
+    "price_per_night": 175,
+    "amenities": [
+      "rooftop bar",
+      "24h gym",
+      "free movies"
+    ],
+    "rating": 9.0,
+    "chain": "citizenM",
+    "description": "Stylish modern rooms. Excellent rooftop bar. No loyalty program."
+  },
+  {
+    "id": "hotel-sax-chicago",
+    "name": "Hotel Sax Chicago",
+    "city": "Chicago",
+    "neighborhood": "River North",
+    "stars": 4,
+    "price_per_night": 145,
+    "amenities": [
+      "restaurant",
+      "bar",
+      "gym"
+    ],
+    "rating": 8.5,
+    "chain": "Independent",
+    "description": "Boutique hotel in River North. Walking distance to Magnificent Mile."
+  },
+  {
+    "id": "marriott-london-marble-arch",
+    "name": "Marriott London Marble Arch",
+    "city": "London",
+    "neighborhood": "Marble Arch",
+    "stars": 5,
+    "price_per_night": 280,
+    "amenities": [
+      "spa",
+      "gym",
+      "restaurant",
+      "concierge",
+      "bar"
+    ],
+    "rating": 8.7,
+    "chain": "Marriott",
+    "description": "5-star hotel near Hyde Park. Marriott Bonvoy eligible."
+  },
+  {
+    "id": "las-vegas-bellagio",
+    "name": "Bellagio",
+    "city": "Las Vegas",
+    "neighborhood": "The Strip",
+    "stars": 5,
+    "price_per_night": 299,
+    "amenities": [
+      "pool",
+      "spa",
+      "casino",
+      "multiple restaurants",
+      "show"
+    ],
+    "rating": 9.1,
+    "chain": "MGM Rewards",
+    "description": "Iconic Las Vegas luxury. Fountain views available."
+  },
+  {
+    "id": "acs-brooklyn-nyc",
+    "name": "1 Hotel Brooklyn Bridge",
+    "city": "New York",
+    "neighborhood": "Brooklyn",
+    "stars": 5,
+    "price_per_night": 345,
+    "amenities": [
+      "rooftop pool",
+      "spa",
+      "gym",
+      "restaurant",
+      "bar"
+    ],
+    "rating": 9.2,
+    "chain": "1 Hotels",
+    "description": "Eco-luxury hotel with panoramic Manhattan skyline views from the Brooklyn waterfront."
+  },
+  {
+    "id": "pod-times-sq-nyc",
+    "name": "Pod Times Square",
+    "city": "New York",
+    "neighborhood": "Times Square",
+    "stars": 3,
+    "price_per_night": 140,
+    "amenities": [
+      "rooftop bar",
+      "bike rental"
+    ],
+    "rating": 7.8,
+    "chain": "Pod Hotels",
+    "description": "Compact modern rooms in the heart of Times Square. Great value for Manhattan."
+  },
+  {
+    "id": "thecitizen-london",
+    "name": "citizenM London Shoreditch",
+    "city": "London",
+    "neighborhood": "Shoreditch",
+    "stars": 4,
+    "price_per_night": 190,
+    "amenities": [
+      "rooftop bar",
+      "24h gym",
+      "free movies"
+    ],
+    "rating": 9.1,
+    "chain": "citizenM",
+    "description": "Stylish tech-forward hotel in trendy Shoreditch. Excellent rooftop views."
+  },
+  {
+    "id": "premier-inn-london-waterloo",
+    "name": "Premier Inn London Waterloo",
+    "city": "London",
+    "neighborhood": "Waterloo",
+    "stars": 3,
+    "price_per_night": 155,
+    "amenities": [
+      "restaurant",
+      "bar"
+    ],
+    "rating": 8.3,
+    "chain": "Premier Inn",
+    "description": "Reliable mid-range hotel steps from South Bank and the Tate Modern."
+  },
+  {
+    "id": "the-savoy-london",
+    "name": "The Savoy",
+    "city": "London",
+    "neighborhood": "Strand",
+    "stars": 5,
+    "price_per_night": 650,
+    "amenities": [
+      "spa",
+      "pool",
+      "fitness center",
+      "multiple restaurants",
+      "butler service"
+    ],
+    "rating": 9.4,
+    "chain": "Fairmont",
+    "description": "London's most iconic luxury hotel. Thames views. Afternoon tea famous worldwide."
+  },
+  {
+    "id": "w-barcelona",
+    "name": "W Barcelona",
+    "city": "Barcelona",
+    "neighborhood": "Barceloneta",
+    "stars": 5,
+    "price_per_night": 295,
+    "amenities": [
+      "rooftop pool",
+      "spa",
+      "gym",
+      "beach club",
+      "multiple restaurants"
+    ],
+    "rating": 8.9,
+    "chain": "Marriott",
+    "description": "Iconic sail-shaped tower on the beach. Rooftop pool with panoramic sea views."
+  },
+  {
+    "id": "hotel-arts-barcelona",
+    "name": "Hotel Arts",
+    "city": "Barcelona",
+    "neighborhood": "Vila Olímpica",
+    "stars": 5,
+    "price_per_night": 310,
+    "amenities": [
+      "pool",
+      "spa",
+      "gym",
+      "restaurant",
+      "bar"
+    ],
+    "rating": 9.0,
+    "chain": "Ritz-Carlton",
+    "description": "52-story luxury tower on the seafront. Ritz-Carlton service in the heart of Barcelona."
+  },
+  {
+    "id": "generator-barcelona",
+    "name": "Generator Barcelona",
+    "city": "Barcelona",
+    "neighborhood": "Gràcia",
+    "stars": 3,
+    "price_per_night": 85,
+    "amenities": [
+      "rooftop bar",
+      "social areas",
+      "café"
+    ],
+    "rating": 8.5,
+    "chain": "Generator",
+    "description": "Stylish hostel-hotel hybrid in Gràcia. Great location, young vibrant atmosphere."
+  },
+  {
+    "id": "hotel-1898-barcelona",
+    "name": "Hotel 1898",
+    "city": "Barcelona",
+    "neighborhood": "Las Ramblas",
+    "stars": 5,
+    "price_per_night": 260,
+    "amenities": [
+      "rooftop pool",
+      "spa",
+      "gym",
+      "restaurant"
+    ],
+    "rating": 9.1,
+    "chain": "Independent",
+    "description": "Boutiuqe luxury in a 19th-century colonial building right on Las Ramblas."
+  },
+  {
+    "id": "citizenm-paris-opera",
+    "name": "citizenM Paris Opéra",
+    "city": "Paris",
+    "neighborhood": "Opéra",
+    "stars": 4,
+    "price_per_night": 195,
+    "amenities": [
+      "24h bar",
+      "gym",
+      "free movies"
+    ],
+    "rating": 9.0,
+    "chain": "citizenM",
+    "description": "Tech-forward hotel in the 9th arrondissement. Walk to the Louvre or Eiffel Tower."
+  },
+  {
+    "id": "le-marais-paris",
+    "name": "Hotel du Petit Moulin",
+    "city": "Paris",
+    "neighborhood": "Le Marais",
+    "stars": 4,
+    "price_per_night": 235,
+    "amenities": [
+      "concierge",
+      "breakfast available"
+    ],
+    "rating": 8.8,
+    "chain": "Independent",
+    "description": "Boutique hotel in a converted pharmacy in the historic Marais district."
+  },
+  {
+    "id": "ibis-styles-paris",
+    "name": "ibis Styles Paris Gare du Nord",
+    "city": "Paris",
+    "neighborhood": "Gare du Nord",
+    "stars": 3,
+    "price_per_night": 130,
+    "amenities": [
+      "restaurant",
+      "bar",
+      "free wifi"
+    ],
+    "rating": 8.0,
+    "chain": "Accor",
+    "description": "Budget-friendly option close to Gare du Nord and Eurostar connections."
+  },
+  {
+    "id": "park-hyatt-tokyo",
+    "name": "Park Hyatt Tokyo",
+    "city": "Tokyo",
+    "neighborhood": "Shinjuku",
+    "stars": 5,
+    "price_per_night": 520,
+    "amenities": [
+      "pool",
+      "spa",
+      "gym",
+      "multiple restaurants",
+      "bar"
+    ],
+    "rating": 9.3,
+    "chain": "Hyatt",
+    "description": "Iconic hotel from Lost in Translation. 39th-52nd floors with stunning Mt. Fuji views."
+  },
+  {
+    "id": "shinjuku-granbell-tokyo",
+    "name": "Shinjuku Granbell Hotel",
+    "city": "Tokyo",
+    "neighborhood": "Shinjuku",
+    "stars": 4,
+    "price_per_night": 165,
+    "amenities": [
+      "bar",
+      "restaurant",
+      "gym"
+    ],
+    "rating": 8.6,
+    "chain": "Granbell Hotels",
+    "description": "Stylish hotel with art-focused design in vibrant Shinjuku. Near nightlife and transit."
+  },
+  {
+    "id": "hoshinoya-tokyo",
+    "name": "HOSHINOYA Tokyo",
+    "city": "Tokyo",
+    "neighborhood": "Otemachi",
+    "stars": 5,
+    "price_per_night": 480,
+    "amenities": [
+      "onsen",
+      "spa",
+      "restaurant",
+      "concierge"
+    ],
+    "rating": 9.5,
+    "chain": "Hoshino Resorts",
+    "description": "Contemporary ryokan in the heart of Tokyo. Traditional Japanese experience in the city."
+  },
+  {
+    "id": "asakusa-bunka-tokyo",
+    "name": "Asakusa View Hotel",
+    "city": "Tokyo",
+    "neighborhood": "Asakusa",
+    "stars": 4,
+    "price_per_night": 140,
+    "amenities": [
+      "restaurant",
+      "bar",
+      "gym",
+      "onsen"
+    ],
+    "rating": 8.4,
+    "chain": "Independent",
+    "description": "Classic hotel overlooking Senso-ji Temple. Traditional atmosphere, great transit access."
+  },
+  {
+    "id": "hotel-de-russie-rome",
+    "name": "Hotel de Russie",
+    "city": "Rome",
+    "neighborhood": "Piazza del Popolo",
+    "stars": 5,
+    "price_per_night": 490,
+    "amenities": [
+      "spa",
+      "pool",
+      "gym",
+      "restaurant",
+      "garden"
+    ],
+    "rating": 9.2,
+    "chain": "Rocco Forte",
+    "description": "Legendary 5-star with a beautiful Botanic Garden. Steps from Piazza del Popolo."
+  },
+  {
+    "id": "corte-dei-neri-rome",
+    "name": "Corte dei Neri",
+    "city": "Rome",
+    "neighborhood": "Campo de' Fiori",
+    "stars": 4,
+    "price_per_night": 185,
+    "amenities": [
+      "breakfast",
+      "concierge",
+      "terrace"
+    ],
+    "rating": 9.0,
+    "chain": "Independent",
+    "description": "Boutique hotel in a 15th-century palazzo. Rooftop terrace with Colosseum views."
+  },
+  {
+    "id": "inn-at-the-spanish-steps",
+    "name": "Inn at the Spanish Steps",
+    "city": "Rome",
+    "neighborhood": "Spanish Steps",
+    "stars": 4,
+    "price_per_night": 210,
+    "amenities": [
+      "rooftop terrace",
+      "concierge",
+      "breakfast"
+    ],
+    "rating": 8.9,
+    "chain": "Independent",
+    "description": "Intimate boutique hotel in the building where Hans Christian Andersen lived."
+  },
+  {
+    "id": "intercontinental-amstel-amsterdam",
+    "name": "InterContinental Amstel Amsterdam",
+    "city": "Amsterdam",
+    "neighborhood": "Weesperplein",
+    "stars": 5,
+    "price_per_night": 420,
+    "amenities": [
+      "spa",
+      "restaurant",
+      "bar",
+      "gym",
+      "canal views"
+    ],
+    "rating": 9.3,
+    "chain": "IHG",
+    "description": "Grand 19th-century palace hotel on the Amstel River. The city's most iconic address."
+  },
+  {
+    "id": "hotel-v-nesplein-amsterdam",
+    "name": "Hotel V Nesplein",
+    "city": "Amsterdam",
+    "neighborhood": "City Centre",
+    "stars": 4,
+    "price_per_night": 175,
+    "amenities": [
+      "bar",
+      "breakfast",
+      "concierge"
+    ],
+    "rating": 8.7,
+    "chain": "Independent",
+    "description": "Stylish boutique hotel 5 minutes' walk from Dam Square and the Rijksmuseum."
+  },
+  {
+    "id": "generator-amsterdam",
+    "name": "Generator Amsterdam",
+    "city": "Amsterdam",
+    "neighborhood": "Oosterpark",
+    "stars": 3,
+    "price_per_night": 90,
+    "amenities": [
+      "bar",
+      "social areas",
+      "café"
+    ],
+    "rating": 8.4,
+    "chain": "Generator",
+    "description": "Vibrant hostel-hotel in a converted education complex. Great for solo travelers."
+  },
+  {
+    "id": "burj-al-arab-dubai",
+    "name": "Burj Al Arab Jumeirah",
+    "city": "Dubai",
+    "neighborhood": "Jumeirah",
+    "stars": 7,
+    "price_per_night": 2200,
+    "amenities": [
+      "butler service",
+      "underwater restaurant",
+      "pool",
+      "spa",
+      "helipad"
+    ],
+    "rating": 9.6,
+    "chain": "Jumeirah",
+    "description": "The world's most iconic hotel. All-suite ultra-luxury on a man-made island."
+  },
+  {
+    "id": "atlantis-palm-dubai",
+    "name": "Atlantis The Palm",
+    "city": "Dubai",
+    "neighborhood": "Palm Jumeirah",
+    "stars": 5,
+    "price_per_night": 380,
+    "amenities": [
+      "waterpark",
+      "multiple pools",
+      "aquarium",
+      "spa",
+      "multiple restaurants"
+    ],
+    "rating": 8.8,
+    "chain": "Atlantis Hotels",
+    "description": "Family resort on the Palm Jumeirah with its own waterpark and underwater aquarium."
+  },
+  {
+    "id": "rove-downtown-dubai",
+    "name": "Rove Downtown Dubai",
+    "city": "Dubai",
+    "neighborhood": "Downtown",
+    "stars": 3,
+    "price_per_night": 110,
+    "amenities": [
+      "pool",
+      "gym",
+      "café",
+      "social areas"
+    ],
+    "rating": 8.6,
+    "chain": "Rove Hotels",
+    "description": "Modern urban hotel next to Dubai Mall and Burj Khalifa. Excellent value for Downtown."
+  },
+  {
+    "id": "marina-bay-sands-singapore",
+    "name": "Marina Bay Sands",
+    "city": "Singapore",
+    "neighborhood": "Marina Bay",
+    "stars": 5,
+    "price_per_night": 480,
+    "amenities": [
+      "infinity pool",
+      "casino",
+      "spa",
+      "multiple restaurants",
+      "mall"
+    ],
+    "rating": 9.1,
+    "chain": "Las Vegas Sands",
+    "description": "World-famous sky park infinity pool atop three interconnected towers. A Singapore icon."
+  },
+  {
+    "id": "raffles-singapore",
+    "name": "Raffles Singapore",
+    "city": "Singapore",
+    "neighborhood": "City Hall",
+    "stars": 5,
+    "price_per_night": 650,
+    "amenities": [
+      "pool",
+      "spa",
+      "gym",
+      "multiple restaurants",
+      "Long Bar"
+    ],
+    "rating": 9.4,
+    "chain": "Accor",
+    "description": "Colonial landmark since 1887. Home of the Singapore Sling. Impeccable service."
+  },
+  {
+    "id": "hotel-jen-orchardgateway",
+    "name": "Hotel Jen Orchardgateway",
+    "city": "Singapore",
+    "neighborhood": "Orchard Road",
+    "stars": 4,
+    "price_per_night": 195,
+    "amenities": [
+      "pool",
+      "gym",
+      "restaurant",
+      "bar"
+    ],
+    "rating": 8.5,
+    "chain": "Shangri-La",
+    "description": "Lifestyle hotel connected to an Orchard Road mall. Great base for shopping and dining."
+  },
+  {
+    "id": "park-hyatt-sydney",
+    "name": "Park Hyatt Sydney",
+    "city": "Sydney",
+    "neighborhood": "The Rocks",
+    "stars": 5,
+    "price_per_night": 560,
+    "amenities": [
+      "pool",
+      "spa",
+      "gym",
+      "restaurant",
+      "Opera House views"
+    ],
+    "rating": 9.4,
+    "chain": "Hyatt",
+    "description": "Sydney's finest hotel with iconic Opera House views from your room and the rooftop."
+  },
+  {
+    "id": "westin-sydney",
+    "name": "Westin Sydney",
+    "city": "Sydney",
+    "neighborhood": "CBD",
+    "stars": 5,
+    "price_per_night": 290,
+    "amenities": [
+      "pool",
+      "spa",
+      "gym",
+      "restaurant",
+      "Heavenly Beds"
+    ],
+    "rating": 8.8,
+    "chain": "Marriott",
+    "description": "Heritage building meets modern luxury in the heart of Sydney's CBD."
+  },
+  {
+    "id": "ibis-styles-sydney-central",
+    "name": "ibis Styles Sydney Central",
+    "city": "Sydney",
+    "neighborhood": "Haymarket",
+    "stars": 3,
+    "price_per_night": 155,
+    "amenities": [
+      "restaurant",
+      "free wifi"
+    ],
+    "rating": 7.9,
+    "chain": "Accor",
+    "description": "Good-value central location near Central Station and Chinatown."
+  },
+  {
+    "id": "como-shambhala-bali",
+    "name": "COMO Shambhala Estate",
+    "city": "Bali",
+    "neighborhood": "Ubud",
+    "stars": 5,
+    "price_per_night": 520,
+    "amenities": [
+      "pool",
+      "spa",
+      "yoga",
+      "restaurant",
+      "jungle views"
+    ],
+    "rating": 9.6,
+    "chain": "COMO Hotels",
+    "description": "Legendary wellness retreat in the jungle of Ubud. The ultimate Bali spa experience."
+  },
+  {
+    "id": "alaya-resort-ubud",
+    "name": "Alaya Resort Ubud",
+    "city": "Bali",
+    "neighborhood": "Ubud",
+    "stars": 4,
+    "price_per_night": 165,
+    "amenities": [
+      "infinity pool",
+      "spa",
+      "restaurant",
+      "yoga",
+      "rice terrace views"
+    ],
+    "rating": 9.0,
+    "chain": "Independent",
+    "description": "Intimate boutique resort overlooking rice paddies. Ideal for digital nomads and wellness."
+  },
+  {
+    "id": "double-six-seminyak",
+    "name": "Double-Six Luxury Hotel",
+    "city": "Bali",
+    "neighborhood": "Seminyak",
+    "stars": 5,
+    "price_per_night": 290,
+    "amenities": [
+      "infinity pool",
+      "beach bar",
+      "spa",
+      "gym",
+      "restaurant"
+    ],
+    "rating": 9.2,
+    "chain": "Independent",
+    "description": "Iconic Seminyak hotel with the best sunset pool bar on the island."
+  },
+  {
+    "id": "aria-resort-las-vegas",
+    "name": "ARIA Resort & Casino",
+    "city": "Las Vegas",
+    "neighborhood": "The Strip",
+    "stars": 5,
+    "price_per_night": 189,
+    "amenities": [
+      "multiple pools",
+      "spa",
+      "casino",
+      "multiple restaurants",
+      "gym",
+      "nightclub"
+    ],
+    "rating": 9.0,
+    "chain": "MGM Rewards",
+    "description": "Tech-forward ultra-modern resort. ARIA's rooms are among the smartest in Vegas."
+  },
+  {
+    "id": "the-venetian-las-vegas",
+    "name": "The Venetian Resort",
+    "city": "Las Vegas",
+    "neighborhood": "The Strip",
+    "stars": 5,
+    "price_per_night": 215,
+    "amenities": [
+      "pool",
+      "spa",
+      "casino",
+      "Grand Canal Shoppes",
+      "multiple restaurants"
+    ],
+    "rating": 9.1,
+    "chain": "Las Vegas Sands",
+    "description": "All-suite resort modeled after Venice. Grand Canal Shoppes and gondola rides."
+  }
+]

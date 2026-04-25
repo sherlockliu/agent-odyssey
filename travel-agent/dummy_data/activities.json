@@ -1,0 +1,969 @@
+[
+  {
+    "city": "Tokyo",
+    "name": "teamLab Borderless Digital Art Museum",
+    "category": "Art & Culture",
+    "description": "Immersive digital art installation spread across multiple rooms. Stunning light and projection art.",
+    "price_usd": 32,
+    "duration_hours": 2.5,
+    "tags": [
+      "art",
+      "culture",
+      "indoor",
+      "unique",
+      "modern",
+      "family"
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "name": "Tsukiji Outer Market Food Tour",
+    "category": "Food & Drink",
+    "description": "Street food tour through Tokyo's famous outer fish market. Fresh sushi, tamagoyaki, and more.",
+    "price_usd": 25,
+    "duration_hours": 2,
+    "tags": [
+      "food",
+      "market",
+      "local",
+      "seafood",
+      "culture",
+      "morning"
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "name": "Shinjuku Gyoen National Garden",
+    "category": "Parks & Nature",
+    "description": "Beautiful national garden blending Japanese, French, and English landscape styles.",
+    "price_usd": 5,
+    "duration_hours": 2,
+    "tags": [
+      "nature",
+      "outdoor",
+      "garden",
+      "relaxation",
+      "family",
+      "budget"
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "name": "Senso-ji Temple & Asakusa Walk",
+    "category": "History & Religion",
+    "description": "Tokyo's oldest temple with traditional shopping street (Nakamise). Best visited at dawn.",
+    "price_usd": 0,
+    "duration_hours": 2,
+    "tags": [
+      "temple",
+      "history",
+      "culture",
+      "shopping",
+      "free",
+      "iconic"
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "name": "Shibuya Crossing & Harajuku Street Fashion",
+    "category": "Shopping & Street Culture",
+    "description": "Experience the world's busiest pedestrian crossing, then explore youth fashion in Harajuku.",
+    "price_usd": 0,
+    "duration_hours": 3,
+    "tags": [
+      "shopping",
+      "culture",
+      "fashion",
+      "free",
+      "iconic",
+      "youth"
+    ]
+  },
+  {
+    "city": "Tokyo",
+    "name": "Meiji Jingu Shrine Walk",
+    "category": "History & Religion",
+    "description": "Forested Shinto shrine dedicated to Emperor Meiji. Peaceful walking path through cedars.",
+    "price_usd": 0,
+    "duration_hours": 1.5,
+    "tags": [
+      "nature",
+      "shrine",
+      "history",
+      "peaceful",
+      "walking",
+      "free"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Louvre Museum",
+    "category": "Art & Culture",
+    "description": "World's largest art museum housing the Mona Lisa, Venus de Milo, and 35,000+ works.",
+    "price_usd": 22,
+    "duration_hours": 4,
+    "tags": [
+      "art",
+      "museum",
+      "history",
+      "culture",
+      "iconic",
+      "indoor"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Seine River Cruise (Bateaux Mouches)",
+    "category": "Sightseeing",
+    "description": "1-hour boat tour past Notre Dame, Eiffel Tower, and Musée d'Orsay. Evening tours especially romantic.",
+    "price_usd": 18,
+    "duration_hours": 1,
+    "tags": [
+      "sightseeing",
+      "river",
+      "romantic",
+      "relaxation",
+      "iconic",
+      "evening"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Montmartre & Sacré-Cœur Walk",
+    "category": "History & Culture",
+    "description": "Winding cobblestone streets, artists' quarter, and panoramic city views from the hilltop basilica.",
+    "price_usd": 0,
+    "duration_hours": 3,
+    "tags": [
+      "walking",
+      "art",
+      "history",
+      "views",
+      "free",
+      "romantic",
+      "local"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Le Marais Food & History Tour",
+    "category": "Food & Culture",
+    "description": "Guided walking tour of the historic Marais district with stops at Jewish bakeries, fromageries, and galleries.",
+    "price_usd": 55,
+    "duration_hours": 3,
+    "tags": [
+      "food",
+      "history",
+      "culture",
+      "walking",
+      "local",
+      "guided"
+    ]
+  },
+  {
+    "city": "Paris",
+    "name": "Versailles Palace Day Trip",
+    "category": "History & Architecture",
+    "description": "The Sun King's legendary palace and gardens, 40 minutes from Paris by RER train.",
+    "price_usd": 30,
+    "duration_hours": 6,
+    "tags": [
+      "history",
+      "architecture",
+      "gardens",
+      "day trip",
+      "royal",
+      "outdoor"
+    ]
+  },
+  {
+    "city": "New York",
+    "name": "The Metropolitan Museum of Art",
+    "category": "Art & Culture",
+    "description": "One of the largest art museums in the world. Egyptian Wing, Greek galleries, Impressionists.",
+    "price_usd": 30,
+    "duration_hours": 4,
+    "tags": [
+      "art",
+      "museum",
+      "culture",
+      "indoor",
+      "iconic",
+      "family"
+    ]
+  },
+  {
+    "city": "New York",
+    "name": "Brooklyn Bridge Walk & DUMBO",
+    "category": "Sightseeing & Architecture",
+    "description": "Walk the iconic bridge for skyline views, then explore the artsy DUMBO neighbourhood.",
+    "price_usd": 0,
+    "duration_hours": 2.5,
+    "tags": [
+      "walking",
+      "views",
+      "architecture",
+      "free",
+      "iconic",
+      "outdoor"
+    ]
+  },
+  {
+    "city": "New York",
+    "name": "Central Park Highlights Tour",
+    "category": "Parks & Nature",
+    "description": "Self-guided or guided tour of the park's iconic spots: Bethesda Fountain, Strawberry Fields, the Ramble.",
+    "price_usd": 0,
+    "duration_hours": 2,
+    "tags": [
+      "nature",
+      "park",
+      "outdoor",
+      "walking",
+      "free",
+      "relaxation",
+      "family"
+    ]
+  },
+  {
+    "city": "New York",
+    "name": "Chelsea Market & High Line",
+    "category": "Food & Sightseeing",
+    "description": "Gourmet food hall inside a historic biscuit factory, connected to the High Line elevated park.",
+    "price_usd": 15,
+    "duration_hours": 3,
+    "tags": [
+      "food",
+      "market",
+      "walking",
+      "outdoor",
+      "local",
+      "architecture"
+    ]
+  },
+  {
+    "city": "New York",
+    "name": "Broadway Show",
+    "category": "Entertainment",
+    "description": "World-class theatre in the heart of Manhattan. Check TKTS booth for same-day discounted tickets.",
+    "price_usd": 100,
+    "duration_hours": 3,
+    "tags": [
+      "theatre",
+      "music",
+      "entertainment",
+      "evening",
+      "culture",
+      "luxury"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Ubud Sacred Monkey Forest",
+    "category": "Nature & Wildlife",
+    "description": "Ancient Hindu temples surrounded by tropical forest and 700+ long-tailed macaques.",
+    "price_usd": 5,
+    "duration_hours": 1.5,
+    "tags": [
+      "nature",
+      "wildlife",
+      "temples",
+      "outdoor",
+      "family",
+      "unique"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Tegallalang Rice Terrace Sunrise Walk",
+    "category": "Nature & Photography",
+    "description": "Iconic UNESCO-listed rice terraces near Ubud. Best at sunrise before the crowds arrive.",
+    "price_usd": 3,
+    "duration_hours": 2,
+    "tags": [
+      "nature",
+      "photography",
+      "outdoor",
+      "sunrise",
+      "walking",
+      "iconic"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Tanah Lot Sunset Temple",
+    "category": "Culture & Photography",
+    "description": "Ancient sea temple on a rocky outcrop, one of Bali's most photographed sunset spots.",
+    "price_usd": 3,
+    "duration_hours": 2,
+    "tags": [
+      "temple",
+      "sunset",
+      "photography",
+      "culture",
+      "iconic",
+      "budget"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Seminyak Beach & Surf Lesson",
+    "category": "Beach & Adventure",
+    "description": "World-class breaks at Seminyak and Kuta. Beginner surf schools available year-round.",
+    "price_usd": 35,
+    "duration_hours": 2,
+    "tags": [
+      "beach",
+      "surf",
+      "adventure",
+      "outdoor",
+      "sport",
+      "ocean"
+    ]
+  },
+  {
+    "city": "Bali",
+    "name": "Balinese Cooking Class",
+    "category": "Food & Culture",
+    "description": "Morning market visit followed by hands-on class making satay, lawar, and black rice pudding.",
+    "price_usd": 40,
+    "duration_hours": 4,
+    "tags": [
+      "food",
+      "cooking",
+      "culture",
+      "local",
+      "hands-on",
+      "morning"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "British Museum",
+    "category": "Art & History",
+    "description": "Free entry to one of the world's greatest collections: Rosetta Stone, Elgin Marbles, Egyptian mummies.",
+    "price_usd": 0,
+    "duration_hours": 3,
+    "tags": [
+      "art",
+      "history",
+      "museum",
+      "free",
+      "indoor",
+      "culture",
+      "family"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "Tower of London & Tower Bridge",
+    "category": "History & Architecture",
+    "description": "900 years of royal history, the Crown Jewels, and a walk across the iconic bascule bridge.",
+    "price_usd": 38,
+    "duration_hours": 3,
+    "tags": [
+      "history",
+      "architecture",
+      "iconic",
+      "royal",
+      "culture",
+      "family"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "Borough Market",
+    "category": "Food & Market",
+    "description": "London's oldest and most renowned food market, open Thursday–Saturday. Artisan cheese, street food.",
+    "price_usd": 0,
+    "duration_hours": 2,
+    "tags": [
+      "food",
+      "market",
+      "local",
+      "free",
+      "cheese",
+      "street food",
+      "culture"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "Hyde Park & Kensington Gardens",
+    "category": "Parks & Nature",
+    "description": "Royal parks perfect for picnics, rowing on the Serpentine, and visiting the Diana Memorial.",
+    "price_usd": 0,
+    "duration_hours": 2,
+    "tags": [
+      "nature",
+      "park",
+      "outdoor",
+      "free",
+      "walking",
+      "relaxation",
+      "family"
+    ]
+  },
+  {
+    "city": "London",
+    "name": "West End Musical",
+    "category": "Entertainment",
+    "description": "World-class musicals in the heart of London's theatre district. Book ahead or try day seats.",
+    "price_usd": 85,
+    "duration_hours": 3,
+    "tags": [
+      "theatre",
+      "music",
+      "entertainment",
+      "evening",
+      "culture"
+    ]
+  },
+  {
+    "city": "Sydney",
+    "name": "Sydney Opera House Guided Tour",
+    "category": "Architecture & Culture",
+    "description": "Behind-the-scenes tour of the iconic UNESCO-listed concert hall. Show tickets available separately.",
+    "price_usd": 45,
+    "duration_hours": 1,
+    "tags": [
+      "architecture",
+      "culture",
+      "iconic",
+      "guided",
+      "history",
+      "music"
+    ]
+  },
+  {
+    "city": "Sydney",
+    "name": "Bondi to Coogee Coastal Walk",
+    "category": "Outdoor & Nature",
+    "description": "6km clifftop walk with stunning ocean views, rock pools, and secluded beaches.",
+    "price_usd": 0,
+    "duration_hours": 3,
+    "tags": [
+      "walking",
+      "nature",
+      "outdoor",
+      "free",
+      "coastal",
+      "views",
+      "beach"
+    ]
+  },
+  {
+    "city": "Sydney",
+    "name": "Blue Mountains Day Trip",
+    "category": "Nature & Adventure",
+    "description": "2-hour drive west. Three Sisters rock formation, Jenolan Caves, and eucalyptus-scented valleys.",
+    "price_usd": 25,
+    "duration_hours": 8,
+    "tags": [
+      "nature",
+      "adventure",
+      "day trip",
+      "hiking",
+      "scenery",
+      "outdoor"
+    ]
+  },
+  {
+    "city": "Sydney",
+    "name": "Sydney Harbour Ferry & Manly Beach",
+    "category": "Beach & Sightseeing",
+    "description": "Scenic 30-min Manly Ferry from Circular Quay, with harbour views and a surf beach at the end.",
+    "price_usd": 8,
+    "duration_hours": 3,
+    "tags": [
+      "beach",
+      "ferry",
+      "views",
+      "outdoor",
+      "budget",
+      "relaxation"
+    ]
+  },
+  {
+    "city": "Barcelona",
+    "name": "Sagrada Família",
+    "category": "Architecture & Religion",
+    "description": "Gaudí's extraordinary basilica, still under construction since 1882. Book tickets weeks ahead.",
+    "price_usd": 35,
+    "duration_hours": 2,
+    "tags": [
+      "architecture",
+      "religion",
+      "iconic",
+      "culture",
+      "Gaudí",
+      "UNESCO"
+    ]
+  },
+  {
+    "city": "Barcelona",
+    "name": "La Boqueria Market & Tapas Crawl",
+    "category": "Food & Culture",
+    "description": "Famous covered market on La Rambla, followed by a tapas bar crawl in the Gothic Quarter.",
+    "price_usd": 30,
+    "duration_hours": 3,
+    "tags": [
+      "food",
+      "market",
+      "tapas",
+      "local",
+      "culture",
+      "social"
+    ]
+  },
+  {
+    "city": "Barcelona",
+    "name": "Park Güell & Gràcia District",
+    "category": "Art & Architecture",
+    "description": "Gaudí's mosaic-tiled park with panoramic city views, then explore the bohemian Gràcia neighbourhood.",
+    "price_usd": 15,
+    "duration_hours": 3,
+    "tags": [
+      "art",
+      "architecture",
+      "views",
+      "Gaudí",
+      "outdoor",
+      "walking"
+    ]
+  },
+  {
+    "city": "Barcelona",
+    "name": "Barceloneta Beach & Seafood Lunch",
+    "category": "Beach & Food",
+    "description": "City beach with buzzing promenade. Lunch at a chiringuito for fresh paella or grilled seafood.",
+    "price_usd": 25,
+    "duration_hours": 4,
+    "tags": [
+      "beach",
+      "food",
+      "seafood",
+      "outdoor",
+      "relaxation",
+      "paella"
+    ]
+  },
+  {
+    "city": "Rome",
+    "name": "Colosseum & Roman Forum",
+    "category": "History & Archaeology",
+    "description": "The world's largest ancient amphitheatre plus the political heart of the Roman Empire.",
+    "price_usd": 20,
+    "duration_hours": 3,
+    "tags": [
+      "history",
+      "archaeology",
+      "iconic",
+      "outdoor",
+      "ancient",
+      "family",
+      "UNESCO"
+    ]
+  },
+  {
+    "city": "Rome",
+    "name": "Vatican Museums & Sistine Chapel",
+    "category": "Art & Religion",
+    "description": "Michelangelo's ceiling, Raphael Rooms, and 2,000 years of papal art. Book in advance.",
+    "price_usd": 30,
+    "duration_hours": 4,
+    "tags": [
+      "art",
+      "religion",
+      "history",
+      "indoor",
+      "culture",
+      "iconic",
+      "UNESCO"
+    ]
+  },
+  {
+    "city": "Rome",
+    "name": "Trastevere Neighbourhood & Street Food",
+    "category": "Food & Culture",
+    "description": "Rome's most charming neighbourhood with ivy-covered piazzas, trattorias, and gelato shops.",
+    "price_usd": 15,
+    "duration_hours": 3,
+    "tags": [
+      "food",
+      "local",
+      "walking",
+      "gelato",
+      "culture",
+      "evening",
+      "romantic"
+    ]
+  },
+  {
+    "city": "Rome",
+    "name": "Pantheon & Piazza Navona Walk",
+    "category": "History & Architecture",
+    "description": "Visit the world's best-preserved Roman temple (free entry), then explore the baroque Piazza Navona.",
+    "price_usd": 5,
+    "duration_hours": 2,
+    "tags": [
+      "history",
+      "architecture",
+      "walking",
+      "free",
+      "ancient",
+      "iconic"
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Rijksmuseum",
+    "category": "Art & Culture",
+    "description": "The national museum of the Netherlands. Rembrandt's Night Watch, Vermeer, and 800 years of Dutch history.",
+    "price_usd": 22,
+    "duration_hours": 3,
+    "tags": [
+      "art",
+      "culture",
+      "indoor",
+      "museum",
+      "iconic",
+      "classic"
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Anne Frank House",
+    "category": "History & Culture",
+    "description": "The hidden annex where Anne Frank wrote her famous diary. Deeply moving. Book tickets in advance.",
+    "price_usd": 14,
+    "duration_hours": 1.5,
+    "tags": [
+      "history",
+      "culture",
+      "indoor",
+      "emotional",
+      "must-see"
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Canal Boat Tour",
+    "category": "Tours",
+    "description": "90-minute narrated boat tour through Amsterdam's UNESCO World Heritage canal ring. Day or evening options.",
+    "price_usd": 18,
+    "duration_hours": 1.5,
+    "tags": [
+      "outdoor",
+      "boat",
+      "city tour",
+      "iconic",
+      "relaxation",
+      "romantic"
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Jordaan Neighbourhood Walk",
+    "category": "Walking & Sightseeing",
+    "description": "Explore the charming canal houses, galleries, and cafés of the Jordaan. Best done without a map.",
+    "price_usd": 0,
+    "duration_hours": 2,
+    "tags": [
+      "walking",
+      "free",
+      "culture",
+      "local",
+      "outdoor",
+      "photogenic"
+    ]
+  },
+  {
+    "city": "Amsterdam",
+    "name": "Van Gogh Museum",
+    "category": "Art & Culture",
+    "description": "The world's largest collection of Van Gogh's work. Over 200 paintings and 500 drawings. Book ahead.",
+    "price_usd": 22,
+    "duration_hours": 2,
+    "tags": [
+      "art",
+      "culture",
+      "indoor",
+      "iconic",
+      "must-see",
+      "museum"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Burj Khalifa 'At the Top'",
+    "category": "Landmarks",
+    "description": "Observation deck on floors 124/125 of the world's tallest building. Stunning cityscape and desert views.",
+    "price_usd": 35,
+    "duration_hours": 1.5,
+    "tags": [
+      "indoor",
+      "observation",
+      "iconic",
+      "views",
+      "modern",
+      "family"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Dubai Food Tour — Al Fahidi District",
+    "category": "Food & Drink",
+    "description": "Explore the historic old town with a local guide. Taste Emirati dishes, Arabic coffee, and street food.",
+    "price_usd": 75,
+    "duration_hours": 3,
+    "tags": [
+      "food",
+      "culture",
+      "local",
+      "history",
+      "walking",
+      "guided"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Desert Safari with BBQ Dinner",
+    "category": "Adventure & Nature",
+    "description": "Dune bashing, camel riding, sand boarding, and a traditional Bedouin camp BBQ dinner under the stars.",
+    "price_usd": 95,
+    "duration_hours": 6,
+    "tags": [
+      "adventure",
+      "outdoor",
+      "nature",
+      "desert",
+      "evening",
+      "family"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Dubai Marina Dhow Cruise",
+    "category": "Tours",
+    "description": "Traditional wooden dhow dinner cruise along the glittering Dubai Marina skyline. Live entertainment included.",
+    "price_usd": 55,
+    "duration_hours": 2.5,
+    "tags": [
+      "boat",
+      "dinner",
+      "evening",
+      "romantic",
+      "views",
+      "entertainment"
+    ]
+  },
+  {
+    "city": "Dubai",
+    "name": "Gold Souk & Spice Souk",
+    "category": "Shopping",
+    "description": "Wander through 380 gold shops of the Deira Gold Souk, then haggle for spices in the historic Spice Souk.",
+    "price_usd": 0,
+    "duration_hours": 2,
+    "tags": [
+      "shopping",
+      "culture",
+      "free",
+      "local",
+      "market",
+      "traditional"
+    ]
+  },
+  {
+    "city": "Singapore",
+    "name": "Gardens by the Bay — Supertrees",
+    "category": "Parks & Nature",
+    "description": "Iconic Supertree Grove light show (OCBC Skyway). Evening light show is free from the ground.",
+    "price_usd": 28,
+    "duration_hours": 2,
+    "tags": [
+      "outdoor",
+      "iconic",
+      "nature",
+      "evening",
+      "family",
+      "modern"
+    ]
+  },
+  {
+    "city": "Singapore",
+    "name": "Hawker Centre Crawl (Maxwell or Lau Pa Sat)",
+    "category": "Food & Drink",
+    "description": "Eat where locals eat. Chicken rice, char kway teow, laksa, and satay for under $10 SGD per dish.",
+    "price_usd": 12,
+    "duration_hours": 1.5,
+    "tags": [
+      "food",
+      "local",
+      "cheap",
+      "culture",
+      "outdoor",
+      "must-do"
+    ]
+  },
+  {
+    "city": "Singapore",
+    "name": "Sentosa Island Day",
+    "category": "Beaches & Leisure",
+    "description": "Cable car to Sentosa, Universal Studios Singapore, Palawan Beach, and S.E.A. Aquarium in one island day.",
+    "price_usd": 45,
+    "duration_hours": 6,
+    "tags": [
+      "family",
+      "beach",
+      "entertainment",
+      "outdoor",
+      "theme park",
+      "cable car"
+    ]
+  },
+  {
+    "city": "Singapore",
+    "name": "Little India & Kampong Glam Walk",
+    "category": "Walking & Sightseeing",
+    "description": "Explore Singapore's vibrant Indian and Malay cultural quarters. Colourful temples, textiles, and street art.",
+    "price_usd": 0,
+    "duration_hours": 3,
+    "tags": [
+      "free",
+      "culture",
+      "walking",
+      "food",
+      "art",
+      "outdoor"
+    ]
+  },
+  {
+    "city": "Madrid",
+    "name": "Museo Nacional del Prado",
+    "category": "Art & Culture",
+    "description": "One of the world's greatest art museums. Velázquez, Goya, El Greco. Free entry Tuesday–Saturday 6–8PM.",
+    "price_usd": 15,
+    "duration_hours": 3,
+    "tags": [
+      "art",
+      "culture",
+      "indoor",
+      "iconic",
+      "museum",
+      "classic"
+    ]
+  },
+  {
+    "city": "Madrid",
+    "name": "El Rastro Sunday Flea Market",
+    "category": "Shopping",
+    "description": "Vast open-air market in La Latina — antiques, vinyl, clothing, food stalls. Go before noon, bring cash.",
+    "price_usd": 0,
+    "duration_hours": 3,
+    "tags": [
+      "market",
+      "shopping",
+      "free",
+      "local",
+      "outdoor",
+      "Sunday-only"
+    ]
+  },
+  {
+    "city": "Madrid",
+    "name": "Tapas Tour in La Latina",
+    "category": "Food & Drink",
+    "description": "Bar crawl through La Latina's medieval streets. Patatas bravas, jamón ibérico, croquetas, and vermouth.",
+    "price_usd": 35,
+    "duration_hours": 3,
+    "tags": [
+      "food",
+      "culture",
+      "local",
+      "nightlife",
+      "walking",
+      "evening"
+    ]
+  },
+  {
+    "city": "Madrid",
+    "name": "Royal Palace & Plaza Mayor Walk",
+    "category": "History & Culture",
+    "description": "Tour the Palacio Real (Europe's largest royal palace by floor area), then explore the pedestrian plaza.",
+    "price_usd": 12,
+    "duration_hours": 3,
+    "tags": [
+      "history",
+      "culture",
+      "outdoor",
+      "indoor",
+      "iconic",
+      "family"
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "name": "Grand Palace & Wat Phra Kaew",
+    "category": "History & Religion",
+    "description": "Thailand's most sacred temple complex. The Emerald Buddha is a must-see. Dress modestly — shoulders covered.",
+    "price_usd": 15,
+    "duration_hours": 2.5,
+    "tags": [
+      "temple",
+      "history",
+      "culture",
+      "iconic",
+      "must-see",
+      "family"
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "name": "Floating Market Tour — Damnoen Saduak",
+    "category": "Tours",
+    "description": "Classic canal market tour by longtail boat. Vendors in wooden boats selling tropical fruits, food, crafts.",
+    "price_usd": 25,
+    "duration_hours": 4,
+    "tags": [
+      "market",
+      "boat",
+      "outdoor",
+      "culture",
+      "food",
+      "guided"
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "name": "Street Food Night Walk — Yaowarat (Chinatown)",
+    "category": "Food & Drink",
+    "description": "Bangkok's Chinatown at night. Pad Thai, mango sticky rice, crab, roasted duck, and freshly pressed juice.",
+    "price_usd": 20,
+    "duration_hours": 2.5,
+    "tags": [
+      "food",
+      "street food",
+      "outdoor",
+      "evening",
+      "culture",
+      "local"
+    ]
+  },
+  {
+    "city": "Bangkok",
+    "name": "Thai Cooking Class",
+    "category": "Experiences",
+    "description": "Morning market tour followed by hands-on cooking class. Learn 4 classic dishes. All skill levels welcome.",
+    "price_usd": 45,
+    "duration_hours": 4,
+    "tags": [
+      "cooking",
+      "food",
+      "culture",
+      "hands-on",
+      "indoor",
+      "morning"
+    ]
+  }
+]
