@@ -51,6 +51,33 @@ npm run dev
 
 ---
 
+### [agent-harness-kit](./agent-harness-kit) — Spec & Skills
+
+A portable, tool-agnostic spec and skill set for building production AI agent harnesses. Drop it into any project and wire up the skill for your AI coding tool.
+
+Contains a `SPEC.md` covering 10 components with design rules and named anti-patterns:
+
+> Dialog Loop · Tool System · Permission Pipeline · Configuration · Memory · Context Management · Hooks · Multi-Agent · Streaming · Plan Mode
+
+Five core principles:
+1. **Loops over recursion** — `while(true)`, not recursive agent turns
+2. **Schema-driven** — Zod schema is the single source of truth
+3. **Progressive permissions** — 4 stages, deny wins, fail-safe on error
+4. **Streaming first** — `AsyncGenerator` from loop to output
+5. **Pluggable extensions** — hooks at lifecycle events
+
+Includes pre-built skills for Claude Code (`/build-agent`), Gemini CLI, and Codex/ChatGPT.
+
+**Quick start (Claude Code):**
+```bash
+mkdir -p .claude/skills/build-agent
+cp agent-harness-kit/skills/claude/SKILL.md .claude/skills/build-agent/
+cat agent-harness-kit/skills/claude/CLAUDE.md >> CLAUDE.md
+# then run /build-agent in Claude Code
+```
+
+---
+
 ## Design Patterns Demonstrated
 
 | Pattern | Description |
