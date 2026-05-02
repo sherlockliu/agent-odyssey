@@ -1,4 +1,4 @@
-# Agent Samples
+# Agent Odyssey
 
 A growing collection of AI agent implementations demonstrating real-world design patterns for building with large language models. Each sample is a fully working agent you can run locally, study, and adapt.
 

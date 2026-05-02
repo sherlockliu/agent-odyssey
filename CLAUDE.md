@@ -1,11 +1,11 @@
-# CLAUDE.md — Agent Samples
+# CLAUDE.md — Agent Odyssey
 
 Guidelines for working in this repository with Claude Code.
 
 ## Repository Structure
 
 ```
-agent-samples/
+agent-odyssey/
 ├── claude-code-travel-agent/   Python agent (Textual TUI, 6 LLM providers)
 ├── travel-agent/               TypeScript agent (React/Ink TUI)
 ├── README.md                   Collection overview
